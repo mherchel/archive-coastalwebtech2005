@@ -1,1 +1,0 @@
-<div style="width:800px;height: 12px;background-color:#a5a5a5;margin-top:10px;"></div><div style="height: 10px;background-color:#757575"></div>
