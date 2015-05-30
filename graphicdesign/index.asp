@@ -32,9 +32,30 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 </head>
 <body>
 <div align="center">
-  <!--#include file="../global/Coastaltop.asp" -->
   
-   <!--#include file="../global/coastalnav.asp" --> 
+<table width="800" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="489" height="125" align="left"><a href="/"><img src="/Coastal Web Technologies Logo.gif" alt="St Augustine Web Design" width="489" height="70" border="0" align="left" /></a></td>
+      <td width="311" align="right" valign="top" class="top-text">
+
+	<form name="form1" id="form1">
+	  <select class="choosefont" name="choosefont" onchange="MM_jumpMenu('parent',this,0)">
+        <option value="#">Font Size</option>
+        <option onclick="setActiveStyleSheet('coastal_small'); return false;" value="#">Small</option>
+        <option onclick="setActiveStyleSheet('coastal_medium'); return false;" value="#">Medium</option>
+        <option onclick="setActiveStyleSheet('coastal_large'); return false;" value="#">Large</option>
+            </select>
+    </form>
+	</td>
+    </tr>
+  </table>
+  
+   <table width="800" border="0" cellpadding="0" cellspacing="0">
+    <!--DWLayoutTable-->
+    <tr>
+      <td height="20" align="right" class="nav"><div align="right"><a id="company" href="/">Home</a> <a id="news" href="/news/">News &amp; Press</a><a id="web" href="/webdesign/">Website Design</a><a id="ecommerce" href="/Applications/">Applications</a><a id="graphic" href="/GraphicDesign/">Graphic Design</a><a style="padding-right:0px" id="contact" href="/Contact/">Contact Us</a></div></td>
+    </tr>
+  </table> 
     <table style
 	="border: solid 2px white;" width="800" border="0" cellpadding="0" cellspacing="0">
     <!--DWLayoutTable-->
@@ -70,6 +91,6 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
   </tr>
 </table>
 
-<!--#include file="../global/coastalfooter.asp" --></div>
+<div style="width:800px;height: 12px;background-color:#a5a5a5;margin-top:10px;"></div><div style="height: 10px;background-color:#757575"></div></div>
 </body>
 </html>
