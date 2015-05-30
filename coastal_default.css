@@ -1,0 +1,140 @@
+body {
+	background-image: url(background.gif);
+	background-repeat: repeat-x;
+	margin: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+td {
+	font-size: 11px;
+	line-height: 1.6;
+	text-align: left;
+}
+a { color:#999999;
+	text-decoration:none;
+	}
+.choosefont {
+	color: #999999;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	margin-top: 10px;
+}
+a:hover { color:#666;
+	text-decoration:underline;
+	}
+
+.nav {
+	font-size: 12px;
+	color: #999999;
+	vertical-align: bottom;
+	font-weight: bold;
+}
+
+.nav a {
+	text-decoration:none;
+	padding: 8px 10px 4px 10px;
+	color: #999;
+	}
+.nav a:hover {
+	text-decoration:none;
+	color: #ccc;
+	border-top: solid 4px #757575;
+	}
+a:hover#company {
+
+	}
+a:hover#news {
+
+	}
+a:hover#web {
+
+	}
+a:hover#ecommerce {
+
+	}
+a:hover#graphic {
+
+	}
+a:hover#contact {
+
+	}
+.front-button-left {
+	background-image: url(button-bg.gif);
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-right: 2px solid #FFFFFF;
+	padding: 0 10 0 10;
+
+}
+
+.front-button-left a { 
+	color: #fff;
+	text-decoration: none;
+	padding: 20px ;
+	}
+.front-button-left a:hover{ 
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 17px;
+	}
+.top-text {
+	color: #aaa;
+	font-size: 11px;
+	padding-right: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+.top-text a {
+	color: #aaa;
+	text-decoration:none;
+	padding: 20px 7px 0px 7px;
+}
+.top-text a:hover {
+	color: #666666;
+	text-decoration:none;
+
+}
+.front-grey-box-img {
+	background-color: #eee;
+	background-image: url(grey-box-bg.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right:10px;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #FFFFFF;
+	font-size: 11px;
+
+}
+.front-grey-box {
+	background-color: #eee;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	padding-left: 10px;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #FFFFFF;
+	height: 40px;
+	vertical-align: middle;
+
+}
+.front-main {
+	color: #999999;
+	padding: 15px 0px 15px 25px;
+	font-size: 10px;
+}
+.front-main em { color:#006699; }
+
+h1 {
+	color: #FF9933;
+	font-size: 16px;
+	margin: 0px;
+}
