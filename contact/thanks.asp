@@ -71,7 +71,31 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 <table width="800" border="0" cellpadding="0" cellspacing="0">
   <!--DWLayoutTable-->
   <tr>
-    <td width="193" valign="top"><!--#include file="../global/coastalleft.asp" -->    </td>
+    <td width="193" valign="top"><table width="193"  style="border-right:solid 2px white;" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="190" align="left" valign="middle" class="front-grey-box"><h1>News</h1></td>
+    </tr>
+      <tr>
+        <td valign="top" class="front-grey-box-img">Coastal Web Technologies is proud to present a new www.coastalwebtech.com. We have been so busy over the last six months that upkeep on our own site and marketing collateral has slipped by the wayside... (<a href="/news/">click here for more</a>) </td>
+    </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td  align="left" valign="middle" class="front-grey-box"><h1>Client Login </h1></td>
+    </tr>
+      <tr>
+        <form action="/login/login.asp" method="post"><td valign="top" class="front-grey-box-img" style="padding-bottom:20px;"><div align="right">ID 
+          <input type="text" name="textfield" /><br />
+          PW <input type="text" name="textfield2" /><br />
+          <input name="Submit" type="submit" value="Submit" />
+          </div></td></form>
+    </tr>
+      <tr>
+        <td valign="top"><!--DWLayoutEmptyCell-->&nbsp;</td>
+      </tr>
+      
+    </table>    </td>
     <td width="607" valign="top"><table width="607" style="border-left: dotted 2px #999999" border="0" cellpadding="0" cellspacing="0">
       <!--DWLayoutTable-->
       <tr>
