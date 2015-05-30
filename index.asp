@@ -6,7 +6,32 @@ response.expires = 0
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Coastal Web Technologies</title>
-<!--#include file="global/coastalheader.asp" -->
+<table width="740" border="0" cellpadding="0" cellspacing="0" bgcolor="#1F4B49" class="main">
+  <tr> 
+    <td width="740" height="15" valign="top" bgcolor="#1F4B49"><div align="right">Website 
+        Design: <a href="http://www.floridawebtech.com" target="_blank">Florida 
+        Web Technologies</a> :: Copyright &copy;2002-2003 Hollow Days :: All Rights 
+        Reserved &nbsp;&nbsp;</div></td>
+  </tr>
+</table>
+<META Http-Equiv="Cache-Control" Content="no-cache">
+<META Http-Equiv="Pragma" Content="no-cache">
+<META Http-Equiv="Expires" Content="0">
+
+<link href="/coastal_default.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/coastal_medium.css" title="coastal_medium" />
+<link rel="alternate stylesheet" type="text/css" href="/coastal_small.css" title="coastal_small" />
+<link rel="alternate stylesheet" type="text/css" href="/coastal_large.css" title="coastal_large" />
+<script type="text/javascript" src="/global/styleswitcher.js"></script>
+
+<script type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</script>
 </head>
 <body>
 <div align="center">
